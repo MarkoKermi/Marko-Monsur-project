@@ -1,7 +1,13 @@
-.navbar {
+#navbar {
   position: fixed;
   display: flex;
   justify-content: space-between;
+  top: 0;
+  width: 100%;
+}
+
+#welcome-section {
+  height: 100vh;
 }
 
 @media (min-width: 1200px) {
